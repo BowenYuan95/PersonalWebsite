@@ -1,7 +1,18 @@
 body{
     background-color: black;
     overflow-x: hidden;
+    color: white;
 }
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 
 body, html {
     height: 100%;
@@ -53,7 +64,6 @@ body, html {
     display: inline-block;
     text-decoration: none;
     opacity: .7;
-    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
     padding: 0 15px;
     font-size: 25px;
 
@@ -73,9 +83,49 @@ body, html {
 }
 
 #content-wrap {
-    background-color: seashell;
+    background-color: white;
     border-top: 1px solid #161d24;
     border-bottom: 1px solid #161d24;
     margin: -1px 0;
     height: 100%;
+}
+
+.nameCard-box {
+    background-color: #003366;
+    width: 320px;
+    overflow:hidden;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding:0;
+}
+
+.nameCard {
+    padding: 45px 0;
+}
+
+.box-avatar {
+    padding: 0px 65px 0 45px;
+}
+
+.mt1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.avatarImg {
+    background-color: white;
+    padding: 5px;
+    border: 2px solid #0F9FB4;
+    vertical-align: middle;
+    border-radius:50%;
+}
+
+.motto {
+    font-size: 13px;
+    font-family: 'Noto Serif SC', serif;
+    background: rgba(0, 0, 0, 0.15);
+    border-left: 2px solid #0F9FB4;
+    padding: 20px 65px 20px 43px;
+    margin-bottom: 20px;
 }
