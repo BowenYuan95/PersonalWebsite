@@ -1,0 +1,104 @@
+body{
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 0;
+
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+.container {
+    background-color: black;
+    height: auto;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    margin: 0 0;
+    padding-bottom: 10px;
+}
+
+.wrapper {
+    margin: 0;
+    background-color: black;
+    position: relative;
+    padding: 10px;
+    height: auto;
+}
+
+
+.title {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    float:left;
+}
+
+.naviBar {
+    float: right;
+}
+
+.navi-link {
+    color: white;
+    text-decoration: none;
+    opacity: .7;
+    padding: 0 10px;
+    font-size: 20px;
+
+}
+
+.content {
+    background-color: white;
+    border-top: 1px solid #161d24;
+    margin: 0px 0;
+    height: auto;
+    color: black;
+}
+
+.headline {
+    background: no-repeat center center;
+    height: 30%;
+    background-image: url(../image/navigation.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.intro {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-size: 60px;
+    color: white;
+}
+
+.bookname {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.navigation {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid  #e0e0eb;
+    margin-bottom: 20px;
+}
