@@ -1,11 +1,12 @@
 body{
-    background-color: black;
     overflow-x: hidden;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 0;
+
 }
 
 p {
-    font-family: 'Times New Roman', Times, serif;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -19,10 +20,12 @@ body, html {
 }
 
 .container {
-    background: black;
+    background-color: black;
+    height: auto;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
-    margin-bottom: 5px;
+    margin: 0 0;
+    padding-bottom: 10px;
 }
 
 .wrapper {
@@ -54,29 +57,33 @@ body, html {
 }
 
 .content {
-    background-color: white;
+    background-color:#003366;
     border-top: 1px solid #161d24;
     border-bottom: 1px solid #161d24;
-    margin: 20px 0;
-    height: 100%;
+    margin: 0 0;
+    height: auto;
 }
 
 .nameCard-box {
-    background-color: #003366;
-    width: 320px;
     overflow:hidden;
-    position: relative;
-    float: left;
-    margin: 0;
     padding:0;
+    margin-right: 0;
+    display: table-cell;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .nameCard {
     padding: 45px 0;
+    width: 320px;
+    margin: 0 auto;
 }
 
 .box-avatar {
     padding: 0px 65px 0 45px;
+    width: 200px;
+    margin-right: 0;
 }
 
 .mt1{
@@ -99,18 +106,25 @@ body, html {
     border-left: 2px solid #0F9FB4;
     padding: 20px 65px 20px 43px;
     margin-bottom: 20px;
+    width: 194px
 }
 
 .post-list {
     color: black;
-    margin-top: 20px
-    ;
-    margin-left: 340px;
-    overflow: hidden;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid  #e0e0eb;
+    margin-bottom: 20px;
 }
 
 .post-preview {
     margin-left: 40px;
     width: 66.6666667%;
+    
 }
 
