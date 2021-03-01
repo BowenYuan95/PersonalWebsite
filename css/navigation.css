@@ -33,6 +33,7 @@ body, html {
     background-color: black;
     position: relative;
     padding: 10px;
+    height: auto;
 }
 
 
@@ -57,59 +58,40 @@ body, html {
 }
 
 .content {
-    background-color:#003366;
-    border-top: 1px solid #161d24;
-    border-bottom: 1px solid #161d24;
-    margin: 0 0;
-    height: auto;
-}
-
-.nameCard-box {
-    overflow:hidden;
-    padding:0;
-    margin-left: auto;
-    margin-right: auto;
-    float:none;
-}
-
-
-.nameCard {
-    padding: 45px 0;
-    width: 320px;
-    margin: 0 auto;
-}
-
-.box-avatar {
-    padding: 0px 65px 0 45px;
-    width: 200px;
-    margin-right: 0;
-}
-
-.mt1{
-    font-size: 25px;
-    margin-bottom: 20px;
-}
-
-.avatarImg {
     background-color: white;
-    padding: 5px;
-    border: 2px solid #0F9FB4;
-    vertical-align: middle;
-    border-radius:50%;
-}
-
-.motto {
-    font-size: 13px;
-    font-family: 'Noto Serif SC', serif;
-    background: rgba(0, 0, 0, 0.15);
-    border-left: 2px solid #0F9FB4;
-    padding: 20px 65px 20px 43px;
-    margin-bottom: 20px;
-    width: 194px
-}
-
-.post-list {
+    border-top: 1px solid #161d24;
+    margin: 0px 0;
+    height: auto;
     color: black;
+}
+
+.headline {
+    background: no-repeat center center;
+    height: 30%;
+    background-image: url(../image/navigation.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.intro {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-size: 60px;
+    color: white;
+}
+
+.bookname {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.navigation {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -120,10 +102,3 @@ body, html {
     border-bottom: 1px solid  #e0e0eb;
     margin-bottom: 20px;
 }
-
-.post-preview {
-    margin-left: 40px;
-    width: 66.6666667%;
-    
-}
-
