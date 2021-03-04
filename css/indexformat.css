@@ -64,6 +64,15 @@ body, html {
     height: auto;
 }
 
+.leftBox {
+    float: left;
+    margin-left:0px;
+    margin-right: 10px;
+    width: 50px;
+    border-left: 2px solid #0F9FB4;
+    background: rgba(0, 0, 0, 0.15);
+}
+
 .nameCard-box {
     overflow:hidden;
     padding:0;
