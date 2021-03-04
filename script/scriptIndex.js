@@ -5,4 +5,4 @@ function time() {
     p1.innerHTML = date1;
 }
 
-setInterval("time()", 1000);
+setInterval(time, 1000);
