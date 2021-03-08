@@ -102,3 +102,32 @@ body, html {
     border-bottom: 1px solid  #e0e0eb;
     margin-bottom: 20px;
 }
+
+.post-preview {
+    margin-left: 40px;
+    width: 66.6666667%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid  #e0e0eb;
+}
+
+.post-link {
+    text-decoration: none;
+}
+
+.post-summery {
+    font-size: 13px;
+    font-style: italic;
+    color: #a3a3a3;
+}
+
+.post-title{
+    margin-bottom: 0;
+}
+
+.post-foot {
+    color: gray;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 0;
+}
