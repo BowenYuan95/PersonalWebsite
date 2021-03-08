@@ -142,6 +142,10 @@ body, html {
     border-bottom: 1px solid  #e0e0eb;
 }
 
+.blog-link {
+    text-decoration: none;
+}
+
 .post-summery {
     font-size: 13px;
     font-style: italic;
